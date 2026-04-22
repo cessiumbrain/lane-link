@@ -1,0 +1,1 @@
+export const laneCallTypes = ["sweep", "ball-return", "pin-spot", "other"]

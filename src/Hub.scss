@@ -1,0 +1,94 @@
+.hub {
+    border: 1px solid black;
+
+    .hub-event.call.active{
+        background: #e82e2e;
+background: linear-gradient(90deg, rgba(232, 46, 46, 1) 0%, rgba(255, 210, 48, 1) 50%, rgba(237, 83, 83, 1) 100%);
+
+        
+
+    }
+    .hub-event.call.in-progress{
+    background: #ffff7a;
+background: linear-gradient(90deg, rgba(255, 255, 122, 1) 1%, rgba(255, 210, 48, 1) 50%, rgba(232, 237, 83, 1) 100%);
+}
+    .hub-event {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0.5rem;
+        padding: 10px;
+        box-sizing: border-box ;
+        border: 1px solid black;
+        
+        .initial-event-row {
+            width: 100%;
+        }
+        .hub-event-info {
+            flex: 3 1 0
+        }
+        .hub-event-buttons{
+            display: flex;
+            flex: 1 1 0;
+
+            button {
+                &.current-status-button{
+                    color: grey;
+                }
+                flex: 1;
+            }
+        }
+        .status{
+            display: inline-block;
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+        .status.active {
+            
+            animation: flash-red 1s infinite;
+        }
+
+        .status.in-progress {
+            animation: flash-yellow 1s infinite;
+        }
+        .status.resolved {
+            background-color: green;
+        }
+
+        
+    }
+.message-textarea {
+            width: 100%;
+            resize: none;
+        }
+}
+
+@keyframes flash-red {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+@keyframes flash-yellow {
+    0% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}

@@ -1,0 +1,79 @@
+.hub {
+  border: 1px solid black;
+}
+.hub .hub-event.call.active {
+  background: #e82e2e;
+  background: linear-gradient(90deg, rgb(232, 46, 46) 0%, rgb(255, 210, 48) 50%, rgb(237, 83, 83) 100%);
+}
+.hub .hub-event.call.in-progress {
+  background: #ffff7a;
+  background: linear-gradient(90deg, rgb(255, 255, 122) 1%, rgb(255, 210, 48) 50%, rgb(232, 237, 83) 100%);
+}
+.hub .hub-event {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+.hub .hub-event .initial-event-row {
+  width: 100%;
+}
+.hub .hub-event .hub-event-info {
+  flex: 3 1 0;
+}
+.hub .hub-event .hub-event-buttons {
+  display: flex;
+  flex: 1 1 0;
+}
+.hub .hub-event .hub-event-buttons button.current-status-button {
+  color: grey;
+}
+.hub .hub-event .hub-event-buttons button {
+  flex: 1;
+}
+.hub .hub-event .status {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.hub .hub-event .status.active {
+  animation: flash-red 1s infinite;
+}
+.hub .hub-event .status.in-progress {
+  animation: flash-yellow 1s infinite;
+}
+.hub .hub-event .status.resolved {
+  background-color: green;
+}
+.hub .message-textarea {
+  width: 100%;
+  resize: none;
+}
+
+@keyframes flash-red {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: red;
+  }
+}
+@keyframes flash-yellow {
+  0% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: yellow;
+  }
+}/*# sourceMappingURL=Hub.css.map */

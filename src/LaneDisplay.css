@@ -1,0 +1,58 @@
+.lane-display {
+  display: flex;
+  border: 1px solid black;
+}
+.lane-display .lane {
+  border: 1px solid black;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lane-display .lane .status {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.lane-display .lane .status.active {
+  background-color: green;
+}
+.lane-display .lane .status.inactive {
+  background-color: red;
+}
+.lane-display .lane .status.pending-call {
+  background-color: yellow;
+}
+.lane-display .call-form > * {
+  margin-bottom: 5px;
+}
+.lane-display .call-form {
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  min-width: 50vw;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.lane-display .call-form .fa-xmark {
+  border: 1px solid black;
+}
+.lane-display .call-form select {
+  height: 2rem;
+}
+.lane-display .call-form input {
+  height: 2rem;
+}
+.lane-display .call-form .pin-selector {
+  display: flex;
+  justify-content: space;
+}
+.lane-display .call-form .pin-selector .pin-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=LaneDisplay.css.map */

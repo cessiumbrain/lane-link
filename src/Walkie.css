@@ -1,0 +1,13 @@
+.walkie button {
+  padding: 5px;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  width: 100%;
+}
+.walkie button.active {
+  background: #e82e2e;
+  background: linear-gradient(90deg, rgb(232, 46, 46) 0%, rgb(255, 210, 48) 50%, rgb(237, 83, 83) 100%);
+}
+.walkie button.inactive {
+  background: green;
+}/*# sourceMappingURL=Walkie.css.map */

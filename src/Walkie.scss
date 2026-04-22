@@ -1,0 +1,15 @@
+.walkie {
+    button{
+        padding: 5px;
+        border-radius: .5rem;
+        border: 1px solid black;
+        width: 100%;
+    }
+    button.active{
+        background: #e82e2e;
+background: linear-gradient(90deg, rgba(232, 46, 46, 1) 0%, rgba(255, 210, 48, 1) 50%, rgba(237, 83, 83, 1) 100%);
+    }
+    button.inactive{
+        background: green;
+    }
+}
