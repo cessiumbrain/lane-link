@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lane-link-beta-js/static/css/main.a74b9d84.css",
-    "main.js": "/lane-link-beta-js/static/js/main.161fc673.js",
-    "static/js/453.d54b3d8b.chunk.js": "/lane-link-beta-js/static/js/453.d54b3d8b.chunk.js",
-    "index.html": "/lane-link-beta-js/index.html",
-    "main.a74b9d84.css.map": "/lane-link-beta-js/static/css/main.a74b9d84.css.map",
-    "main.161fc673.js.map": "/lane-link-beta-js/static/js/main.161fc673.js.map",
-    "453.d54b3d8b.chunk.js.map": "/lane-link-beta-js/static/js/453.d54b3d8b.chunk.js.map"
+    "main.css": "/lane-link/static/css/main.a74b9d84.css",
+    "main.js": "/lane-link/static/js/main.731806a3.js",
+    "static/js/453.d54b3d8b.chunk.js": "/lane-link/static/js/453.d54b3d8b.chunk.js",
+    "index.html": "/lane-link/index.html",
+    "main.a74b9d84.css.map": "/lane-link/static/css/main.a74b9d84.css.map",
+    "main.731806a3.js.map": "/lane-link/static/js/main.731806a3.js.map",
+    "453.d54b3d8b.chunk.js.map": "/lane-link/static/js/453.d54b3d8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a74b9d84.css",
-    "static/js/main.161fc673.js"
+    "static/js/main.731806a3.js"
   ]
 }
