@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lane-link/static/css/main.a74b9d84.css",
-    "main.js": "/lane-link/static/js/main.731806a3.js",
+    "main.js": "/lane-link/static/js/main.119133a6.js",
     "static/js/453.d54b3d8b.chunk.js": "/lane-link/static/js/453.d54b3d8b.chunk.js",
     "index.html": "/lane-link/index.html",
     "main.a74b9d84.css.map": "/lane-link/static/css/main.a74b9d84.css.map",
-    "main.731806a3.js.map": "/lane-link/static/js/main.731806a3.js.map",
+    "main.119133a6.js.map": "/lane-link/static/js/main.119133a6.js.map",
     "453.d54b3d8b.chunk.js.map": "/lane-link/static/js/453.d54b3d8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a74b9d84.css",
-    "static/js/main.731806a3.js"
+    "static/js/main.119133a6.js"
   ]
 }
